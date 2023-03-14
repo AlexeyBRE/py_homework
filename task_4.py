@@ -22,5 +22,7 @@ if income > costs:
     print(f"Рентабельность выручки ={costs/income}")
     employees_company = int(input("Введите численность сотрудников фирмы: "))
     print(f"Прибыль фирмы в расчете на одного сотрудника = {costs/employees_company}")
+elif income == costs:
+    print("Выручка, только покрывает издержки. Прибыли нет!")
 else:
     print("Убыток — издержки больше выручки")
